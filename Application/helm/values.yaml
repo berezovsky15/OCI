@@ -1,9 +1,9 @@
-replicas: 3
+ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/danibiri7/hello-world:v3'
-  tag: 'base'
+  image: 'quay.io/danibiri7/hello-world'
+  tag: 'v3'
 
 service:
   servicePort: 8080
