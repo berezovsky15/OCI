@@ -1,5 +1,5 @@
 apiVersion: v2
-name: danibiri7-hello-world
+name: OCI
 description: A Helm chart for Kubernetes
 type: application
 version: 1.0.0
