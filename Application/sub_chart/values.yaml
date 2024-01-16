@@ -19,3 +19,20 @@ deploy2:
 
   service:
     servicePort: 8080
+
+probes:
+  readiness:
+    path: <>
+    initialDelaySeconds: <>
+    timeoutSeconds: <>
+    periodSeconds: <>
+    successThreshold: <>
+    failureThreshold: <>
+  liveness:
+    path: <>
+    initialDelaySeconds: <>
+    timeoutSeconds: <>
+    periodSeconds: <>
+    successThreshold: <>
+    failureThreshold: <>
+
