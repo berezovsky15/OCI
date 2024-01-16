@@ -45,8 +45,9 @@ annotations:
   argocd.argoproj.io/sync-options: Prune=false
 
 argocd:
-  syncwave:
+  syncwave: 
     deployment: 5
+    configmap: 1
 
 deploy1:
   ReplicaNumber: 5

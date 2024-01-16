@@ -5,14 +5,14 @@ type: application
 dependencies:
   - name: danibiri7-hello-world
     repository: "oci://ghcr.io/berezovsky15/helm"
-    version: "1.0.2"
+    version: "1.0.4"
     alias: deploy1
   - name: danibiri7-hello-world
     repository: "oci://ghcr.io/berezovsky15/helm"
-    version: 1.0.2
+    version: 1.0.4
     alias: deploy2
-version: 1.0.2
-appVersion: "1.0.2"
+version: 1.0.4
+appVersion: "1.0.4"
 
 metadata:
   name: '*****'
