@@ -21,9 +21,6 @@ spec:
             name: '{{ .Chart.Name }}-html'
             defaultMode: 420
       containers:
-            env:
-            - name: PORT
-              value: {{ .Values.containers.containerPort | quote }}
         - resources: {}
           volumeMounts:
           - name: index-html
