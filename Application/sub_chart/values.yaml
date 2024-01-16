@@ -44,3 +44,15 @@ annotations:
   argocd.argoproj.io/sync-wave: "2"
   argocd.argoproj.io/sync-options: Prune=false
 
+argocd:
+  syncwave:
+    deployment: 5
+
+deploy1:
+  ReplicaNumber: 5
+
+deploy2:
+  ReplicaNumber: 10
+
+
+
